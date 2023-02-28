@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import SetUsername from '@/components/SetUsername.vue';
-import { useAccountStore } from '@/stores/account.store';
+import SetUsername from '@components/SetUsername.vue';
+import { useAccountStore } from '@stores/account.store';
 
 const accountStore = useAccountStore();
 </script>

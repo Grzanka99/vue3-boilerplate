@@ -7,10 +7,12 @@ const route = useRoute();
 
 const { x, y } = useMouse();
 
-const userid = computed(() => route.params);
+const userNAme = computed(() => route.params.id);
 </script>
 
 <template>
-  <h1>{{ userid }}</h1>
-  <h2>x: {{ x }} y: {{ y }}</h2>
+  <div>
+    <h1>{{ userNAme }}</h1>
+    <h2>x: {{ x }} y: {{ y }}</h2>
+  </div>
 </template>

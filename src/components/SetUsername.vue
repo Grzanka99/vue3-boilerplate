@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAccountStore } from '@/stores/account.store';
+import { useAccountStore } from '@stores/account.store';
 import { ref } from 'vue';
 
 const accountStore = useAccountStore();
